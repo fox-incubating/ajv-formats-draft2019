@@ -5,7 +5,9 @@
   "description": "An AJV plugin adding support for draft2019 formats missing from AJV.",
   "main": "./index.js",
   "types": "./index.d.ts",
-  "keywords": ["ajv"],
+  "keywords": [
+    "ajv"
+  ],
   "author": "Edwin Kofler <edwin@kofler.dev> (https://edwinkofler.com/)",
   "license": "MPL-2.0",
   "peerDependencies": {
@@ -16,5 +18,8 @@
     "schemes": "^1.4.0",
     "smtp-address-parser": "^1.1.0",
     "uri-js": "^4.4.1"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1"
   }
 }
