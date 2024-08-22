@@ -1,25 +1,39 @@
 {
-  "name": "@hyperupcall/ajv-formats-draft2019",
-  "version": "1.7.1",
-  "type": "module",
-  "description": "An AJV plugin adding support for draft2019 formats missing from AJV.",
-  "main": "./index.js",
-  "types": "./index.d.ts",
-  "keywords": [
-    "ajv"
-  ],
-  "author": "Edwin Kofler <edwin@kofler.dev> (https://edwinkofler.com/)",
-  "license": "MPL-2.0",
-  "peerDependencies": {
-    "ajv": ">=8"
-  },
-  "dependencies": {
-    "punycode": "^2.3.1",
-    "schemes": "^1.4.0",
-    "smtp-address-parser": "^1.1.0",
-    "uri-js": "^4.4.1"
-  },
-  "devDependencies": {
-    "ajv": "^8.17.1"
-  }
+	"name": "@hyperupcall/ajv-formats-draft2019",
+	"version": "1.7.1",
+	"type": "module",
+	"description": "An AJV plugin adding support for draft2019 formats missing from AJV.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fox-incubating/ajv-formats-draft2019.git"
+	},
+	"bugs": {
+		"url": "https://github.com/fox-incubating/ajv-formats-draft2019/issues"
+	},
+	"author": "Edwin Kofler <edwin@kofler.dev> (https://edwinkofler.com)",
+	"license": "MPL-2.0",
+	"private": false,
+	"main": "./index.js",
+	"types": "./index.d.ts",
+	"keywords": [
+		"ajv"
+	],
+	"scripts": {
+		"format": "hyperupcall-scripts-nodejs format",
+		"lint": "hyperupcall-scripts-nodejs lint"
+	},
+	"peerDependencies": {
+		"ajv": ">=8"
+	},
+	"dependencies": {
+		"punycode": "^2.3.1",
+		"schemes": "^1.4.0",
+		"smtp-address-parser": "^1.1.0",
+		"uri-js": "^4.4.1"
+	},
+	"devDependencies": {
+		"@hyperupcall/scripts-nodejs": "0.2.0",
+		"ajv": "^8.17.1"
+	},
+	"prettier": "@hyperupcall/scripts-nodejs/prettier-config.js"
 }
